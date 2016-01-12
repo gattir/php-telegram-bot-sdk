@@ -31,7 +31,7 @@ class Video extends BaseType implements TypeInterface
         'width' => true,
         'height' => true,
         'duration' => true,
-        'thumb' => PhotoSize::class,
+        'thumb' => 'TelegramBot\Api\Types\PhotoSize',
         'mime_type' => true,
         'file_size' => true
     ];

@@ -28,7 +28,7 @@ class InlineQuery extends BaseType
      */
     static protected $map = [
         'id' => true,
-        'from' => User::class,
+        'from' => 'TelegramBot\Api\Types\User',
         'query' => true,
         'offset' => true,
     ];

@@ -22,7 +22,7 @@ class Document extends BaseType implements TypeInterface
      */
     static protected $map = [
         'file_id' => true,
-        'thumb' => PhotoSize::class,
+        'thumb' => 'TelegramBot\Api\Types\PhotoSize',
         'file_name' => true,
         'mime_type' => true,
         'file_size' => true

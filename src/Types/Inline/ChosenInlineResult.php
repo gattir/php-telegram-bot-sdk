@@ -27,7 +27,7 @@ class ChosenInlineResult extends BaseType
      */
     static protected $map = [
         'result_id' => true,
-        'from' => User::class,
+        'from' => 'TelegramBot\Api\Types\User',
         'query' => true,
     ];
 

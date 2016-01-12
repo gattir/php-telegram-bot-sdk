@@ -56,3 +56,6 @@ crashlytics-build.properties
 vendor/
 
 /*.php
+
+# netbeans
+/nbproject/private/

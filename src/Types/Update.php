@@ -30,9 +30,9 @@ class Update extends BaseType implements TypeInterface
      */
     static protected $map = [
         'update_id' => true,
-        'message' => Message::class,
-        'inline_query' => InlineQuery::class,
-        'chosen_inline_result' => ChosenInlineResult::class,
+        'message' => 'TelegramBot\Api\Types\Message',
+        'inline_query' => 'TelegramBot\Api\Types\Inline\InlineQuery',
+        'chosen_inline_result' => 'TelegramBot\Api\Types\Inline\ChosenInlineResult',
     ];
 
     /**
